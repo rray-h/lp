@@ -1,9 +1,20 @@
+using Microsoft.EntityFrameworkCore;
+using WebApplication1.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<ApplicationDBContext> (options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnetion"));
+});
 
 var app = builder.Build();
+if (args.Length == 1 && args[0].ToLower() == "seeddata")
+{
+    Seed.SeedData(app);
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
