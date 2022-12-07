@@ -19,13 +19,29 @@ namespace WebApplication1.Data
                     {
                         new User()
                         {
-                            Id = 2,
-                            Name = "Danil2",
+                            Name = "Danil22",
+                            Password = "dsasds2aa",
+                            Email = "dads1a@gmail.com",
+                            PhoneNumber = "880055523535",
+                            IsEnabled = false
+                        },
+                        new User()
+                        {
+                            Name = "Danil21",
+                            Password = "dsasds2aa",
+                            Email = "dads1a@gmail.com",
+                            PhoneNumber = "880055523535",
+                            IsEnabled = false
+                        },
+                        new User()
+                        {                           
+                            Name = "Danil23",
                             Password = "dsasds2aa",
                             Email = "dads1a@gmail.com",
                             PhoneNumber = "880055523535",
                             IsEnabled = false
                         }
+
 
                     });
                     context.SaveChanges();
