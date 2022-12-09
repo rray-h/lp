@@ -1,20 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Data;
+using WebApplication1.Interfaces;
+using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
     public class  AllUsersController : Controller
     {
-        private readonly ApplicationDBContext _context;
-
-        public IActionResult Index()
+        private readonly IUserRepository _userRepository;
+        public async Task<IActionResult> Index()
         {
-            var users = _context.users.ToList();
+            IEnumerable<User> users = await _userRepository.GetAll();
             return View(users);
         }
-        public AllUsersController(ApplicationDBContext context)
+        public AllUsersController( IUserRepository userRepository)  
         {
-            _context = context;
+            _userRepository = userRepository;
         }
     }
 }
