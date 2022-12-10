@@ -10,6 +10,9 @@ namespace WebApplication1.Data
 
         }
         public DbSet<User> users { get; set; }
+        public DbSet<Role> roles { get; set; }
+        public DbSet<Query> query { get; set; } 
+        public DbSet<Classification> classification { get; set; }
 
     }
 }

@@ -20,6 +20,8 @@ namespace WebApplication1.Models
         [Display(Name = "Введите номер")]
         public string PhoneNumber { get; set; }
         [Required]
+        [Display(Name = "Выберете вашу поль")]
+        public Role? Role { get; set; }
         public bool IsEnabled { get; set; }
     }
 }
