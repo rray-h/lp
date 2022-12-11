@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using WebApplication1.Data.Enum;
 
 namespace WebApplication1.Models
 {
@@ -9,7 +10,7 @@ namespace WebApplication1.Models
         [Required]
         public string Name { get; set; }
         [Required]
-        public Classification? Classification { get; set; }
+        public QueryCategory QueryCategory { get; set; }
         [Required]
         public string Description { get; set; }
         [Required]

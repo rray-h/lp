@@ -12,8 +12,7 @@ namespace WebApplication1.Data
                 var context = serviceScope.ServiceProvider.GetService<ApplicationDBContext>();
 
                 context.Database.EnsureCreated();
-                //Roles
-                
+ 
                 //Users
                 if (!context.users.Any())
                 {
@@ -23,7 +22,8 @@ namespace WebApplication1.Data
                         {
                             Name = "Danil22",
                             Password = "dsasds2aa",
-                            Email = "dads1a@gmail.com",
+                            UserRole = Enum.UserRoles.Admin,
+                            Email = "dads1a@gmail.com",                         
                             PhoneNumber = "880055523535",
                             IsEnabled = false
                         },
@@ -31,15 +31,16 @@ namespace WebApplication1.Data
                         {
                             Name = "Danil21",
                             Password = "dsasds2aa",
+                            UserRole = Enum.UserRoles.StandardUser,
                             Email = "dads1a@gmail.com",
                             PhoneNumber = "880055523535",
-                            
                             IsEnabled = false
                         },
                         new User()
-                        {                           
+                        {
                             Name = "Danil23",
                             Password = "dsasds2aa",
+                            UserRole = Enum.UserRoles.Freelancer,
                             Email = "dads1a@gmail.com",
                             PhoneNumber = "880055523535",
                             IsEnabled = false
@@ -47,56 +48,54 @@ namespace WebApplication1.Data
 
 
                     });
-                    // Classification
-                    if (!context.classification.Any())
-                    {
-                        context.classification.AddRange(new List<Classification>(){
-                        new Classification(){Name = "Ремонт пк"},
-                        new Classification(){Name = "Ремонт мобильных устройств"},
-                        new Classification(){Name = "Ремонт роутеров"},
-                    });
-                        if (!context.query.Any())
+                        //Query
+
+                      if (!context.query.Any())
                         {
                             context.query.AddRange(new List<Query>()
-                    {
-                        new Query()
-                        {
-                            Name = "Моя проблема",
-                            Description = "Приходит как-то улитка в бар и просит виски с колой,а бармен ей говорит: ",
-                            Problem = "Ты",
-                            Urgency = "13.05.2023",
-                            CanBeRedacted = true,
-                            hasTaken = false,
-                        },
-                        new Query()
-                        {
-                            Name = "Роутер 3хххх",
-                            Description = "Приходит как-то улитка в бар и просит виски с колой,а бармен ей говорит: ",
-                            Problem = "Перестал рабоать",
-                            Urgency = "13.05.2023",
-                            CanBeRedacted = true,
-                            hasTaken = false,
-                        },
-                                       new Query()
-                        {
-                            Name = "Телефон от компании славный возврат",
-                            Description = "Приходит как-то улитка в бар и просит виски с колой,а бармен ей говорит: ",
-                            Problem = "Сдох",
-                            Urgency = "13.05.2023",
-                            CanBeRedacted = true,
-                            hasTaken = false,
-                        }
+                            {
+                                new Query()
+                                {
+                                    Name = "Моя проблема",
+                                    Description = "Приходит как-то улитка в бар и просит виски с колой,а бармен ей говорит: ",
+                                    QueryCategory = Enum.QueryCategory.Other,
+                                    Problem = "Ты",
+                                    Urgency = "13.05.2023",
+                                    CanBeRedacted = true,
+                                    hasTaken = false
+                                },
+                                new Query()
+                                {
+                                    Name = "Роутер 3хххх",
+                                    Description = "Приходит как-то улитка в бар и просит виски с колой,а бармен ей говорит: ",
+                                     QueryCategory = Enum.QueryCategory.Router,
+                                    Problem = "Перестал рабоать",
+                                    Urgency = "13.05.2023",
+                                    CanBeRedacted = true,
+                                    hasTaken = false
+                                },
+                                new Query()
+                                {
+                                    Name = "Телефон от компании славный возврат",
+                                    Description = "Приходит как-то улитка в бар и просит виски с колой,а бармен ей говорит: ",
+                                     QueryCategory = Enum.QueryCategory.Telephone,
+                                    Problem = "Сдох",
+                                    Urgency = "13.05.2023",
+                                    CanBeRedacted = true,
+                                    hasTaken = false
+                                }
 
 
 
-                    });
-                        }
-                    context.SaveChanges();
+                           });
+                    }
+                        context.SaveChanges();
+                    }
                 }
             }
         }
     }
-}
+
     
 /*        public static async Task SeedUsersAndRolesAsync(IApplicationBuilder applicationBuilder)
         {

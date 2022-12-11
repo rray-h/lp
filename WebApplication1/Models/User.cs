@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using WebApplication1.Data.Enum;
 
 namespace WebApplication1.Models
 {
@@ -21,7 +22,7 @@ namespace WebApplication1.Models
         public string PhoneNumber { get; set; }
         [Required]
         [Display(Name = "Выберете вашу поль")]
-        public Role? Role { get; set; }
+        public UserRoles UserRole { get; set; }
         public bool IsEnabled { get; set; }
     }
 }
