@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acoun\\source\\repos\\practice\\WebApplication1\\WebApplication1.csproj": {}
+    "/home/rray/Desktop/practice/WebApplication1/WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acoun\\source\\repos\\practice\\WebApplication1\\WebApplication1.csproj": {
+    "/home/rray/Desktop/practice/WebApplication1/WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acoun\\source\\repos\\practice\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "/home/rray/Desktop/practice/WebApplication1/WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\acoun\\source\\repos\\practice\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\acoun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acoun\\Source\\Repos\\practice\\WebApplication1\\obj\\",
+        "projectPath": "/home/rray/Desktop/practice/WebApplication1/WebApplication1.csproj",
+        "packagesPath": "/home/rray/.nuget/packages/",
+        "outputPath": "/home/rray/Desktop/practice/WebApplication1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\acoun\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/rray/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/rray/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

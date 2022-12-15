@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gxcdZsXG/iY2/svAscbkcfpKSjXEO8/MQUNwB43t5MDdok+x6pSbOcPU3bE95y73fqyqrS5qJt0xZDmsnlp8hg==",
+  "dgSpecHash": "v3nvJ6aGMGZCe42Qapch9o3G1ljSufZsWjCwXuzLlV/CaLxlrdNs5bxbCZZ/l+uN98bTtqXek1HGOkIgaP+4jg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\acoun\\source\\repos\\practice\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "/home/rray/Desktop/practice/WebApplication1/WebApplication1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

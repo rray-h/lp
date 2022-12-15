@@ -18,7 +18,12 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Autorization()
+        {
+            return View();
+        }
+
+        public IActionResult Reg()
         {
             return View();
         }

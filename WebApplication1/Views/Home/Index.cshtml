@@ -1,9 +1,34 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<div class="container"> 
+
+    <div class="home__body">
+        <div class="home__thumb">
+            <h2 class="home__title">Ремонт любой техники в кратчайшие сроки!</h2>
+            <h2 class="home__subtitle">Заявку можно оставить здесь↓</h2>
+        </div>
+
+
+        <form action="#" class="home__form">
+            <div class="home__req">
+                <input placeholder="Что это за устройство?" type="text" class="home__input"/> <br/>
+                <input placeholder="Модель этого устройства?" type="text" class="home__input"/> <br/>
+                <input placeholder="Как срочно вам нужен ремонт?" type="text" class="home__input"/> <br/>
+                <input placeholder="Какая проблема в устройстве вас беспокоит?" type="text" class="home__input"/> <br/>
+                <input placeholder="Здесь оставьте свой номер телефона" type="text" class="home__input"/> <br/>
+            </div>
+    
+            <div class="home__btn">
+                <button class="home__send">Отправить</button>
+            </div>
+    
+        </form>
+    </div>
+
 </div>
+
+
     
