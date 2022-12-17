@@ -8,15 +8,21 @@
     <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />    
     <link rel="stylesheet" href="~/css/reg.css" asp-append-version="true" />    
     <link rel="stylesheet" href="~/css/auth.css" asp-append-version="true" />    
+    <link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />    
+    <link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />    
 </head>
 <body>
     
-    <header> 
-    
-        <a asp-controller="Home" asp-action="Reg">Registration</a>
-        <a asp-controller="Home" asp-action="Autorization">Autorization</a>
-        <a asp-controller="Home" asp-action="Index">Home</a>
-
+    <header class="header"> 
+        <div class="header__container container">
+            <div class="header__body">
+                <nav class="header__nav">
+                    <a class="btn" asp-controller="Home" asp-action="Reg">Зарегистрироваться</a>
+                    <a class="btn" asp-controller="Home" asp-action="Autorization">Авторизоваться</a>
+                    <a class="btn" asp-controller="Home" asp-action="Index">Главная</a>             
+                </nav>
+            </div>
+        </div>
      </header>
 
     <div class="container">
@@ -26,7 +32,15 @@
     </div>
 
 
-    <footer> footer </footer>
+    <footer class="footer"> 
+        <div class="footer__container container">
+            <div class="footer__body">
+                <p>8909-88-77-22</p>
+                <p>repsupport@gmail.com</p>
+            </div>
+        </div>
+    
+    </footer>
    
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)

@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets/WebApplication1.bundle.scp.css"
     },
     {
+      "Id": "/home/rray/Desktop/practice/WebApplication1/wwwroot/css/auth.css",
+      "PackagePath": "staticwebassets/css/auth.css"
+    },
+    {
+      "Id": "/home/rray/Desktop/practice/WebApplication1/wwwroot/css/home.css",
+      "PackagePath": "staticwebassets/css/home.css"
+    },
+    {
+      "Id": "/home/rray/Desktop/practice/WebApplication1/wwwroot/css/reg.css",
+      "PackagePath": "staticwebassets/css/reg.css"
+    },
+    {
       "Id": "/home/rray/Desktop/practice/WebApplication1/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

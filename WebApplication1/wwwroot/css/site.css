@@ -32,3 +32,17 @@ body {
   max-width: 1024px;
   margin: 0 auto;
 }
+
+.btn {
+  background-color: #FF7F49;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #46394B;
+  font-weight: 500;
+}
+
+.input {
+  width: 100%;
+  padding: 15px 10px;
+  border-bottom: 1px solid  #D9D9D9;
+}
