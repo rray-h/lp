@@ -12,89 +12,85 @@ namespace WebApplication1.Data
                 var context = serviceScope.ServiceProvider.GetService<ApplicationDBContext>();
 
                 context.Database.EnsureCreated();
- 
-                //Users
-                if (!context.users.Any())
+                //Query
+
+                if (!context.query.Any())
                 {
-                    context.users.AddRange(new List<User>()
-                    {
-                        new User()
-                        {
-                            Name = "Danil22",
-                            Password = "dsasds2aa",
-                            UserRole = Enum.UserRoles.Admin,
-                            Email = "dads1a@gmail.com",                         
-                            PhoneNumber = "880055523535",
-                            IsEnabled = false
-                        },
-                        new User()
-                        {
-                            Name = "Danil21",
-                            Password = "dsasds2aa",
-                            UserRole = Enum.UserRoles.StandardUser,
-                            Email = "dads1a@gmail.com",
-                            PhoneNumber = "880055523535",
-                            IsEnabled = false
-                        },
-                        new User()
-                        {
-                            Name = "Danil23",
-                            Password = "dsasds2aa",
-                            UserRole = Enum.UserRoles.Freelancer,
-                            Email = "dads1a@gmail.com",
-                            PhoneNumber = "880055523535",
-                            IsEnabled = false
-                        }
-
-
-                    });
-                        //Query
-
-                      if (!context.query.Any())
-                        {
-                            context.query.AddRange(new List<Query>()
+                    context.query.AddRange(new List<Query>()
                             {
                                 new Query()
                                 {
-                                    Name = "Моя проблема",
-                                    Description = "Приходит как-то улитка в бар и просит виски с колой,а бармен ей говорит: ",
-                                    QueryCategory = Enum.QueryCategory.Other,
-                                    Problem = "Ты",
-                                    Urgency = "13.05.2023",
+                                    Name = "My problem",
+                                    Description = "dsadasd",
+                                    Model="dsasaas",
+                                    PhoneNumber = "88005553535",
+                                    Problem = "dssaas",
+                                    UserID = 1,
+                                    User = new User()
+                                        {
+                                            Name = "Danil22",
+                                            Password = "dsasds2aa",
+                                            UserRole = Enum.UserRoles.Admin,
+                                            Email = "dads1a@gmail.com",
+                                            IsEnabled = false
+                                        },
+                                    IsItQuick = true,
                                     CanBeRedacted = true,
                                     hasTaken = false
                                 },
                                 new Query()
-                                {
-                                    Name = "Роутер 3хххх",
-                                    Description = "Приходит как-то улитка в бар и просит виски с колой,а бармен ей говорит: ",
-                                     QueryCategory = Enum.QueryCategory.Router,
-                                    Problem = "Перестал рабоать",
-                                    Urgency = "13.05.2023",
-                                    CanBeRedacted = true,
-                                    hasTaken = false
-                                },
-                                new Query()
-                                {
-                                    Name = "Телефон от компании славный возврат",
-                                    Description = "Приходит как-то улитка в бар и просит виски с колой,а бармен ей говорит: ",
-                                     QueryCategory = Enum.QueryCategory.Telephone,
-                                    Problem = "Сдох",
-                                    Urgency = "13.05.2023",
-                                    CanBeRedacted = true,
-                                    hasTaken = false
+                                    {
+                                        Name = "Роутер",
+                                        Description = "Приходит как-то улитка в бар и просит виски с колой,а бармен ей говорит: ",
+                                        Model="BaikanurBased7921",
+                                        PhoneNumber = "88005553535",
+                                        Problem = "Перестал работать",
+                                        UserID= 2,
+                                        User = new User()
+                                            {
+                                                
+                                                Name = "Danil21",
+                                                Password = "dsasds2aa",
+                                                UserRole = Enum.UserRoles.StandardUser,
+                                                Email = "dads1a@gmail.com",
+                                                IsEnabled = false
+                                            },
+                                        IsItQuick = false,
+                                        CanBeRedacted = true,
+                                        hasTaken = false
+                                    },
+                                    new Query()
+                                    {
+                                        Name = "Телефон от компании славный возврат",
+                                        Description = "Приходит как-то улитка в бар и просит виски с колой,а бармен ей говорит: ",
+                                        Model="YaDoljenJit",
+                                        PhoneNumber = "88005553535",
+                                        UserID=3,
+                                        User = new User()
+                                            {
+                                                Name = "Danil221",
+                                                Password = "dsasds2aa",
+                                                UserRole = Enum.UserRoles.StandardUser,
+                                                Email = "dads1a1@gmail.com",
+                                                IsEnabled = false
+                                            },
+                                        IsItQuick = false,
+                                        Problem = "Сдох",
+                                        CanBeRedacted = true,
+                                        hasTaken = false
                                 }
 
 
 
                            });
-                    }
-                        context.SaveChanges();
-                    }
+
+                    context.SaveChanges();
                 }
             }
         }
     }
+}
+    
 
     
 /*        public static async Task SeedUsersAndRolesAsync(IApplicationBuilder applicationBuilder)

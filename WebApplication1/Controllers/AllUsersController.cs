@@ -5,7 +5,7 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
-    public class  AllUsersController : Controller
+    public class AllUsersController : Controller
     {
         private readonly IUserRepository _userRepository;
         public async Task<IActionResult> Index()

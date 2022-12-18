@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using WebApplication1.Data.Enum;
 
 namespace WebApplication1.Models
@@ -17,11 +18,6 @@ namespace WebApplication1.Models
         [EmailAddress]
         [Display(Name = "Введите почту")]
         public string Email { get; set; }
-        [Required(ErrorMessage = "Забыл ввести")]
-        [Display(Name = "Введите номер")]
-        public string PhoneNumber { get; set; }
-        [Required]
-        [Display(Name = "Выберете вашу поль")]
         public UserRoles UserRole { get; set; }
         public bool IsEnabled { get; set; }
     }

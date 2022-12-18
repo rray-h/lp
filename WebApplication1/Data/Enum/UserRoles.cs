@@ -5,6 +5,5 @@
         StandardUser,
         Freelancer,
         Admin
-
     }
 }
