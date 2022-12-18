@@ -20,11 +20,11 @@ namespace WebApplication1.Models
         public bool IsItQuick { get; set; }
         [Required]
         public string PhoneNumber { get; set; }
-        public bool CanBeRedacted { get; set; }
-        public bool hasTaken { get; set; }
+        public bool? CanBeRedacted { get; set; }
+        public bool? hasTaken { get; set; }
         [ForeignKey("User")]
-        public int UserID { get; set; }
-        public User User { get; set; }  
+        public int? UserID { get; set; }
+        public User? User { get; set; }  
 
     }
 }

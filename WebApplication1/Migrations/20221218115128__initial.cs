@@ -39,9 +39,9 @@ namespace WebApplication1.Migrations
                     Problem = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IsItQuick = table.Column<bool>(type: "bit", nullable: false),
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CanBeRedacted = table.Column<bool>(type: "bit", nullable: false),
-                    hasTaken = table.Column<bool>(type: "bit", nullable: false),
-                    UserID = table.Column<int>(type: "int", nullable: false)
+                    CanBeRedacted = table.Column<bool>(type: "bit", nullable: true),
+                    hasTaken = table.Column<bool>(type: "bit", nullable: true),
+                    UserID = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -50,8 +50,7 @@ namespace WebApplication1.Migrations
                         name: "FK_query_users_UserID",
                         column: x => x.UserID,
                         principalTable: "users",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateIndex(

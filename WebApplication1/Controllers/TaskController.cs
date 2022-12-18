@@ -18,6 +18,21 @@ namespace WebApplication1.Controllers
             Query query = await _queryRepository.GetById(id);
             return View(query);
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Create(Query query)
+        {
+           if (!ModelState.IsValid)
+            {
+                return View(query);
+            }
+           _queryRepository.Add(query);
+            return RedirectToAction ("Index");
+        }
+        
         public TaskController(IQueryRepository queryRepository)
         {
             _queryRepository = queryRepository;
