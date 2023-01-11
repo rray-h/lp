@@ -31,7 +31,12 @@ namespace WebApplication1.Repository
 
         public async Task<Query> GetById(int id)
         {
-            return await _context.query.Include(i=> i.User).FirstOrDefaultAsync(i => i.Id == id);
+            return await _context.query.FirstOrDefaultAsync(i => i.Id == id);
+        }
+
+        public async Task<Query> GetByIdNoTracking(int id)
+        {
+            return await _context.query.AsNoTracking().FirstOrDefaultAsync(i => i.Id == id);
         }
 
         public bool Save()
@@ -42,7 +47,8 @@ namespace WebApplication1.Repository
 
         public bool Update(Query Query)
         {
-            throw new NotImplementedException();
+            _context.Update(Query);
+            return Save();
         }
     }
 }

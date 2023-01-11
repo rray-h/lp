@@ -24,19 +24,9 @@ namespace WebApplication1.Data
                                     Description = "dsadasd",
                                     Model="dsasaas",
                                     PhoneNumber = "88005553535",
-                                    Problem = "dssaas",
-                                    UserID = 1,
-                                    User = new User()
-                                        {
-                                            Name = "Danil22",
-                                            Password = "dsasds2aa",
-                                            UserRole = Enum.UserRoles.Admin,
-                                            Email = "dads1a@gmail.com",
-                                            IsEnabled = false
-                                        },
+                                    Problem = "dssaas",         
                                     IsItQuick = true,
-                                    CanBeRedacted = true,
-                                    hasTaken = false
+                                    CanBeRedacted = true
                                 },
                                 new Query()
                                     {
@@ -45,19 +35,9 @@ namespace WebApplication1.Data
                                         Model="BaikanurBased7921",
                                         PhoneNumber = "88005553535",
                                         Problem = "Перестал работать",
-                                        UserID= 2,
-                                        User = new User()
-                                            {
-                                                
-                                                Name = "Danil21",
-                                                Password = "dsasds2aa",
-                                                UserRole = Enum.UserRoles.StandardUser,
-                                                Email = "dads1a@gmail.com",
-                                                IsEnabled = false
-                                            },
                                         IsItQuick = false,
-                                        CanBeRedacted = true,
-                                        hasTaken = false
+                                        CanBeRedacted = true
+
                                     },
                                     new Query()
                                     {
@@ -65,25 +45,11 @@ namespace WebApplication1.Data
                                         Description = "Приходит как-то улитка в бар и просит виски с колой,а бармен ей говорит: ",
                                         Model="YaDoljenJit",
                                         PhoneNumber = "88005553535",
-                                        UserID=3,
-                                        User = new User()
-                                            {
-                                                Name = "Danil221",
-                                                Password = "dsasds2aa",
-                                                UserRole = Enum.UserRoles.StandardUser,
-                                                Email = "dads1a1@gmail.com",
-                                                IsEnabled = false
-                                            },
                                         IsItQuick = false,
                                         Problem = "Сдох",
-                                        CanBeRedacted = true,
-                                        hasTaken = false
+                                        CanBeRedacted = true
                                 }
-
-
-
                            });
-
                     context.SaveChanges();
                 }
             }
