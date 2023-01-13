@@ -10,7 +10,6 @@ namespace WebApplication1.ViewModels
         [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }
-        public bool Freelance { get; set; }
 
     }
 }

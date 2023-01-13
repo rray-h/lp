@@ -1,0 +1,33 @@
+﻿@using WebApplication1.ViewModels
+@model RegisterViewModel
+@{
+    ViewData["Title"] = "Регистрация";
+}
+ @if (TempData["Error"] != null)
+ {
+        <span><b>Sorry!</b> - @TempData["Error"] </span>
+ }
+ <form asp-action="Register">
+     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+         <label asp-for="EmailAddress" class="control-label"></label>
+         <input asp-for="EmailAddress" class="form-control" />
+         <span asp-validation-for="EmailAddress" class="text-danger"></span>
+
+         <label asp-for="Password" class="control-label"></label>
+         <input asp-for="Password" class="form-control" />
+         <span asp-validation-for="Password" class="text-danger"></span>
+
+         <label asp-for="ConfirmPassword" class="control-label"></label>
+         <input asp-for="ConfirmPassword" class="form-control" />
+         <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+         
+         <label asp-for="Freelance" class="control-label"></label>
+         <input type="checkbox" asp-for="Freelance">
+         <span asp-validation-for="Freelance" class="text-danger"></span>
+     
+         <input class="btn btn-outline-success float-right" type="submit" value="Sign up" />
+     
+         <a class="btn btn-outline-secondary" asp-controller="Task" asp-action="Index">Cancel</a>
+ </form>
+

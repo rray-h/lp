@@ -17,7 +17,39 @@ namespace WebApplication1.Controllers
             _signInManager = signInManager;
             _context = context;
         }
+        //Регистрация
+        public IActionResult Register()
+        {
+            var response = new RegisterViewModel();
+            return View(response);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Register(RegisterViewModel RegisterVM)
+        {
+            if (!ModelState.IsValid) return View(RegisterVM);
 
+            var user = await _userManager.FindByEmailAsync(RegisterVM.EmailAddress);
+
+            if (user != null)
+            {
+                TempData["Error"] = "Данная почта уже занята другим пользователем";
+                return View(RegisterVM);
+            }
+            var newUser = new AppUser()
+            {
+                Email = RegisterVM.EmailAddress,
+                UserName = RegisterVM.EmailAddress,
+            };
+            var newUserResponse = await _userManager.CreateAsync(newUser, RegisterVM.Password);
+            if (newUserResponse.Succeeded)
+            {
+                if (RegisterVM.Freelance == true) await _userManager.AddToRoleAsync(newUser, UserRoles.Freelancer);
+                else await _userManager.AddToRoleAsync(newUser, UserRoles.User);
+            }
+            return RedirectToAction("Login", "Account");
+        }
+
+        // Логин
         public IActionResult Login()
         {
             var response = new LoginViewModel();
@@ -26,7 +58,7 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel loginVM)
         {
-            if(!ModelState.IsValid) return View(loginVM);
+            if (!ModelState.IsValid) return View(loginVM);
 
             var user = await _userManager.FindByEmailAsync(loginVM.EmailAddress);
 
@@ -46,11 +78,18 @@ namespace WebApplication1.Controllers
                 //Пароль неверный
                 TempData["Error"] = "Данные указанны не верно!";
                 return View(loginVM);
-                
+
             }
             //Пользователь не найден
             TempData["Error"] = "Такого пользователя не существует!";
             return View(loginVM);
+        }
+        //Выход 
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Login", "Account");
         }
     }
 }
