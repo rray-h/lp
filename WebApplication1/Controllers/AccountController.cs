@@ -85,7 +85,7 @@ namespace WebApplication1.Controllers
             return View(loginVM);
         }
         //Выход 
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();

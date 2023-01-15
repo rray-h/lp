@@ -16,8 +16,7 @@ namespace WebApplication1.Data
                 context.Database.EnsureCreated();
                 //Query
 
-                if (!context.query.Any())
-                {
+
                     context.query.AddRange(new List<Query>()
                             {
                                 new Query()
@@ -55,7 +54,6 @@ namespace WebApplication1.Data
                     context.SaveChanges();
                 }
             }
-        }
         //IdentityFramework
         public static async Task SeedUsersAndRolesAsync(IApplicationBuilder applicationBuilder)
         {

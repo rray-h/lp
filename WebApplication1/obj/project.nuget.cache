@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KvZs+oOfSQax1KXWg05qFgnbQT/kWryL/n0zlBuOHHwCwY+b7rS9jfn25Ys1AOzz7xC2yyQaQ0Ld8uP1l5AwmQ==",
+  "dgSpecHash": "Eb9LktZwa9jAVJVG2SJEDdfr2Nsl0mNmLidlWqhEag4MgybPg74JKGBGc5xeiK66toH/bqtUO5HSH1E2zU7Hqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\acoun\\source\\repos\\practice\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
@@ -195,7 +195,11 @@
     "C:\\Users\\acoun\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\acoun\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\acoun\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\acoun\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\acoun\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\acoun\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\acoun\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\acoun\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\acoun\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
   ],
   "logs": []
 }

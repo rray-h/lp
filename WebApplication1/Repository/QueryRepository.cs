@@ -18,9 +18,9 @@ namespace WebApplication1.Repository
             return Save();
         }
 
-        public bool Delete(int id)
+        public bool Delete(Query query)
         {
-            _context.Remove(id);
+            _context.Remove(query);
             return Save();
         }
 

@@ -77,7 +77,13 @@ namespace WebApplication1.Controllers
             {
                 return View(taskVM);
             }
-        }   
+        }
+        [HttpGet]
+        public async Task<ActionResult> Delete(Query query)
+        {
+            _queryRepository.Delete(query);
+            return RedirectToAction("Index", "Task");
+        }
         public TaskController(IQueryRepository queryRepository)
         {
             _queryRepository = queryRepository;

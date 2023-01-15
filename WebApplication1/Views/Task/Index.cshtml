@@ -16,6 +16,7 @@
                 <a href="#" class="btn primary m-2">Urgency: @item.IsItQuick </a>
                 <a asp-controller="Task" asp-action="Detail" asp-route-id="@item.Id" type="button">Detail</a>
                 <a asp-controller="Task" asp-action="Edit" asp-route-id="@item.Id" type="button">Edit</a>
+                <a asp-controller="Task" asp-action="Delete" asp-route-id="@item.Id" type="button">Delete</a>
             </p>
         }
     </div>

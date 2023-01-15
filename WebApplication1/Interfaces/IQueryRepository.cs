@@ -9,7 +9,7 @@ namespace WebApplication1.Interfaces
         Task<Query> GetByIdNoTracking(int id);
         bool Add(Query query);
         bool Update(Query query);
-        bool Delete(int id);
+        bool Delete(Query query);
         bool Save();
 
     }
