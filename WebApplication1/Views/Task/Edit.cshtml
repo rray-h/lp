@@ -1,0 +1,35 @@
+﻿@using WebApplication1.ViewModels
+@model EditTaskViewModel
+<form method="post" asp-action="Edit" enctype="multipart/form-data">
+    <div class="home__req">
+
+        <div>
+            <input placeholder="Название устройства" asp-for="Name"  class="home__input input"/>
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div>
+            <input placeholder="Модель устройтва" asp-for="Model"  class="home__input input"/>
+            <span asp-validation-for="Model" class="text-danger"></span>
+        </div>
+        <div>
+            <input placeholder="Проблема устройства" asp-for="Problem"  class="home__input input"/>
+            <span asp-validation-for="Problem" class="text-danger"></span>
+        </div>
+        <div>
+            <input placeholder="Описание" asp-for="Description"  class="home__input input"/>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div>
+            <input placeholder="Ваш телефон" asp-for="PhoneNumber"  class="home__input input"/>
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+        <div class="quick__block">
+            <label class="quick" asp-for="IsItQuick">Срочно</label>
+            <input type="checkbox" asp-for="IsItQuick">
+            <span asp-validation-for="IsItQuick" class="text-danger"></span>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-a btn-primary">Применить</button>
+
+</form>

@@ -1,0 +1,22 @@
+﻿
+@model IEnumerable<Query>
+@*
+
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "TaskList";
+}
+<section class="text-center">
+    <div class="container">
+        @foreach (var item in Model)
+        {
+            <p>
+                <a href="#" class="detail primary m-2">User: @item.Name </a>
+                <a href="#" class="detail primary m-2">Urgency: @item.IsItQuick </a>
+                <a class="btn btn-a" asp-controller="Task" asp-action="Detail" asp-route-id="@item.Id" type="button">Detail</a>
+                <a class="btn btn-a" asp-controller="Task" asp-action="Edit" asp-route-id="@item.Id" type="button">Edit</a>
+            </p>
+        }
+    </div>
+</section>

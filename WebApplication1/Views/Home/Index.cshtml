@@ -1,8 +1,6 @@
 ﻿@{
-    ViewData["Title"] = "Home";
+    ViewData["Title"] = "Home Page";
 }
-
-
 
 <div class="container"> 
 
@@ -13,7 +11,7 @@
         </div>
 
 
-        <form action="#" class="home__form">
+        <form as-action="Index" class="home__form">
             <div class="home__req">
                 <input placeholder="Что это за устройство?" type="text" class="home__input input"/> <br/>
                 <input placeholder="Модель этого устройства?" type="text" class="home__input input"/> <br/>
@@ -23,13 +21,10 @@
             </div>
     
             <div class="home__btn">
-                <button class="home__send btn">Отправить</button>
+                <button type="submit" class="home__send btn" > Отправить </button>
             </div>
     
         </form>
     </div>
 
 </div>
-
-
-    

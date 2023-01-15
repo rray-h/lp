@@ -1,0 +1,20 @@
+﻿@model Query
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<section class="text-center">
+    <div class="container">
+        <h1>Задание:</h1>
+
+            <p>
+                <a href="#" class="detail primary m-2">Название: @Model.Name </a>
+                <a href="#" class="detail primary m-2">Модель: @Model.Model </a>
+                <a href="#" class="detail primary m-2">Описание: @Model.Description </a>
+                <a href="#" class="detail primary m-2">Телефон: @Model.PhoneNumber </a>
+                <a href="#" class="detail primary m-2">Скорость: @Model.IsItQuick </a>
+            </p>
+
+    </div>
+</section>

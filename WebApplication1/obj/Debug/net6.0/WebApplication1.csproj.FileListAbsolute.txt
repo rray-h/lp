@@ -1,57 +1,195 @@
-C:/Users/acoun/source/repos/practice/WebApplication1/bin/Debug/net6.0/appsettings.Development.json
-C:/Users/acoun/source/repos/practice/WebApplication1/bin/Debug/net6.0/appsettings.json
-C:/Users/acoun/source/repos/practice/WebApplication1/bin/Debug/net6.0/WebApplication1.staticwebassets.runtime.json
-C:/Users/acoun/source/repos/practice/WebApplication1/bin/Debug/net6.0/WebApplication1.exe
-C:/Users/acoun/source/repos/practice/WebApplication1/bin/Debug/net6.0/WebApplication1.deps.json
-C:/Users/acoun/source/repos/practice/WebApplication1/bin/Debug/net6.0/WebApplication1.runtimeconfig.json
-C:/Users/acoun/source/repos/practice/WebApplication1/bin/Debug/net6.0/WebApplication1.dll
-C:/Users/acoun/source/repos/practice/WebApplication1/bin/Debug/net6.0/WebApplication1.pdb
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.AssemblyReference.cache
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.AssemblyInfoInputs.cache
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.AssemblyInfo.cs
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.CoreCompileInputs.cache
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.MvcApplicationPartsAssemblyInfo.cache
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.RazorAssemblyInfo.cache
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.RazorAssemblyInfo.cs
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/staticwebassets.build.json
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/staticwebassets.development.json
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/scopedcss/bundle/WebApplication1.styles.css
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/scopedcss/projectbundle/WebApplication1.bundle.scp.css
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.dll
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/refint/WebApplication1.dll
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.pdb
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.genruntimeconfig.cache
-C:/Users/acoun/source/repos/practice/WebApplication1/obj/Debug/net6.0/ref/WebApplication1.dll
-/home/rray/Desktop/practice/WebApplication1/bin/Debug/net6.0/appsettings.Development.json
-/home/rray/Desktop/practice/WebApplication1/bin/Debug/net6.0/appsettings.json
-/home/rray/Desktop/practice/WebApplication1/bin/Debug/net6.0/WebApplication1.staticwebassets.runtime.json
-/home/rray/Desktop/practice/WebApplication1/bin/Debug/net6.0/WebApplication1
-/home/rray/Desktop/practice/WebApplication1/bin/Debug/net6.0/WebApplication1.deps.json
-/home/rray/Desktop/practice/WebApplication1/bin/Debug/net6.0/WebApplication1.runtimeconfig.json
-/home/rray/Desktop/practice/WebApplication1/bin/Debug/net6.0/WebApplication1.dll
-/home/rray/Desktop/practice/WebApplication1/bin/Debug/net6.0/WebApplication1.pdb
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.AssemblyReference.cache
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.AssemblyInfoInputs.cache
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.AssemblyInfo.cs
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.CoreCompileInputs.cache
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.MvcApplicationPartsAssemblyInfo.cache
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.RazorAssemblyInfo.cache
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.RazorAssemblyInfo.cs
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/staticwebassets/msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/staticwebassets/msbuild.build.WebApplication1.props
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.WebApplication1.props
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.WebApplication1.props
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/staticwebassets.pack.json
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/staticwebassets.build.json
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/staticwebassets.development.json
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/scopedcss/bundle/WebApplication1.styles.css
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/scopedcss/projectbundle/WebApplication1.bundle.scp.css
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.dll
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/refint/WebApplication1.dll
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.pdb
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/WebApplication1.genruntimeconfig.cache
-/home/rray/Desktop/practice/WebApplication1/obj/Debug/net6.0/ref/WebApplication1.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\WebApplication1.staticwebassets.runtime.json
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cs
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication1.props
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+C:\Users\acoun\source\repos\practice\WebApplication1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\acoun\source\repos\practice\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\WebApplication1.staticwebassets.runtime.json
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\WebApplication1.RazorAssemblyInfo.cs
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\пк\OneDrive\Рабочий стол\practice-DB-Autorisation\practice-DB-Autorisation\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll

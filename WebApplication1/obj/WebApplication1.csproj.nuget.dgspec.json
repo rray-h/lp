@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/rray/Desktop/practice/WebApplication1/WebApplication1.csproj": {}
+    "C:\\Users\\пк\\OneDrive\\Рабочий стол\\practice-DB-Autorisation\\practice-DB-Autorisation\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "/home/rray/Desktop/practice/WebApplication1/WebApplication1.csproj": {
+    "C:\\Users\\пк\\OneDrive\\Рабочий стол\\practice-DB-Autorisation\\practice-DB-Autorisation\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rray/Desktop/practice/WebApplication1/WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\пк\\OneDrive\\Рабочий стол\\practice-DB-Autorisation\\practice-DB-Autorisation\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "/home/rray/Desktop/practice/WebApplication1/WebApplication1.csproj",
-        "packagesPath": "/home/rray/.nuget/packages/",
-        "outputPath": "/home/rray/Desktop/practice/WebApplication1/obj/",
+        "projectPath": "C:\\Users\\пк\\OneDrive\\Рабочий стол\\practice-DB-Autorisation\\practice-DB-Autorisation\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\пк\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\пк\\OneDrive\\Рабочий стол\\practice-DB-Autorisation\\practice-DB-Autorisation\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/rray/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\пк\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +37,32 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.AspNetCore.Mvc.TagHelpers": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

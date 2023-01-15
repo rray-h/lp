@@ -1,0 +1,45 @@
+﻿
+@model Query
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+        <div class="home__thumb">
+            <h2 class="home__title">Ремонт любой техники в кратчайшие сроки!</h2>
+            <h2 class="home__subtitle">Заявку можно оставить здесь↓</h2>
+        </div>
+<form method="post" asp-action="Create" class="home__form">
+
+    <div class="home__req">
+
+        <div>
+            <input placeholder="Название устройства" asp-for="Name"  class="home__input input"/>
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div>
+            <input placeholder="Модель устройтва" asp-for="Model"  class="home__input input"/>
+            <span asp-validation-for="Model" class="text-danger"></span>
+        </div>
+        <div>
+            <input placeholder="Проблема устройства" asp-for="Problem"  class="home__input input"/>
+            <span asp-validation-for="Problem" class="text-danger"></span>
+        </div>
+        <div>
+            <input placeholder="Описание" asp-for="Description"  class="home__input input"/>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div>
+            <input placeholder="Ваш телефон" asp-for="PhoneNumber"  class="home__input input"/>
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+        <div class="quick__block">
+            <label class="quick" asp-for="IsItQuick">Срочно</label>
+            <input type="checkbox" asp-for="IsItQuick">
+            <span asp-validation-for="IsItQuick" class="text-danger"></span>
+        </div>
+    </div>
+
+    <button class="home__send btn" type="submit">Отправить</button>
+
+</form>

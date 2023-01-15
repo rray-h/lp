@@ -43,10 +43,19 @@ body {
 
 .input {
   width: 100%;
-  padding: 15px 10px;
+  padding: 10px 10px;
   border-bottom: 1px solid  #D9D9D9;
 }
 
+.quick__block {
+    display: flex;
+
+}
+
+.quick {
+    display: block;
+    margin: 10px 10px;
+}
 .header-user {
   display: none;
 }
@@ -66,4 +75,17 @@ body {
   border-bottom: 1px solid #D9D9D9;
   border-right: 1px solid #D9D9D9;
   padding: 10px 15px;
+}
+
+.detail {
+    border: 1px solid #000;
+    display: block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    color: #000;
+}
+
+.btn-a {
+    display: block;
+    margin: 20px 0;
 }

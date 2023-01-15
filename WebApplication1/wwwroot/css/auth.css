@@ -14,9 +14,7 @@
     font-weight: 500;
 }
 
-.auth__form > *:not(:last-child){
-    margin-bottom: clamp(0.938rem, 0.795rem + 0.71vw, 1.25rem);
-}
+
 
 .auth__form{
     width: 30vw;
@@ -36,3 +34,6 @@
     width: 100%;
 }
 
+.auth__btn {
+    margin-top: 15px;
+}
