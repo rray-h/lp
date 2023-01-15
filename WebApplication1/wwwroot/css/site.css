@@ -46,3 +46,24 @@ body {
   padding: 15px 10px;
   border-bottom: 1px solid  #D9D9D9;
 }
+
+.header-user {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.btn-del {
+  background-color: #46394B;
+  color: #fff;
+}
+
+.delete {
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 1px solid #D9D9D9;
+  border-right: 1px solid #D9D9D9;
+  padding: 10px 15px;
+}

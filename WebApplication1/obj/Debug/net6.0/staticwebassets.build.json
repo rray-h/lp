@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jw8cWT/ClmCMPrEAzFtgcUNF+AVAboqOWODOWzFyS6k=",
+  "Hash": "2FpZ0K6Yt0M9nBqSzSUu6jdg6nV9DJufDRjKcF2Cb5Q=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -153,12 +153,12 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/home/rray/Desktop/practice/WebApplication1/wwwroot/css/user.cs",
+      "Identity": "/home/rray/Desktop/practice/WebApplication1/wwwroot/css/user.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
       "ContentRoot": "/home/rray/Desktop/practice/WebApplication1/wwwroot/",
       "BasePath": "_content/WebApplication1",
-      "RelativePath": "css/user.cs",
+      "RelativePath": "css/user.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,7 +167,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/user.cs"
+      "OriginalItemSpec": "wwwroot/css/user.css"
     },
     {
       "Identity": "/home/rray/Desktop/practice/WebApplication1/wwwroot/favicon.ico",

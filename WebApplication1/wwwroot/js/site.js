@@ -1,6 +1,7 @@
 ﻿let modal = document.querySelector('.user__modal');
 let btnList = document.querySelectorAll('.user__btn');
 let close = document.querySelectorAll('.user__button');
+let del = document.querySelectorAll('.delete');
 
 
 for(let i = 0; i < btnList.length; i++) {
@@ -18,5 +19,3 @@ for(let i = 0; i < close.length; i++) {
         })
     }
 }
-
-
