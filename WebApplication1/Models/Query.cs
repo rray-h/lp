@@ -21,6 +21,9 @@ namespace WebApplication1.Models
         [Required]
         public string PhoneNumber { get; set; }
         public bool? CanBeRedacted { get; set; }
+        [ForeignKey("AppUser")]
+        public string? AppUserId { get; set; }
+        public AppUser? AppUser { get; set; }
 
     }
 }

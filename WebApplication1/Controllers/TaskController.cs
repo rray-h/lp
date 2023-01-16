@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
+using System.Net;
 using System.Threading.Tasks;
 using WebApplication1.Interfaces;
 using WebApplication1.Models;
@@ -9,31 +11,65 @@ namespace WebApplication1.Controllers
     public class TaskController : Controller
     {
         private readonly IQueryRepository _queryRepository;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public TaskController(IQueryRepository queryRepository, IHttpContextAccessor httpContextAccessor)
+        {
+            _queryRepository = queryRepository;
+            _httpContextAccessor = httpContextAccessor;
+        }
+
+
         public async Task<IActionResult> Index()
+        {
+            IEnumerable<Query> query = await _queryRepository.GetAllbyUserID();
+            return View(query);
+
+        }
+        public async Task<IActionResult> AllTasks()
         {
             IEnumerable<Query> query = await _queryRepository.GetAll();
             return View(query);
-
         }
         public async Task<IActionResult> Detail(int id)
         {
             Query query = await _queryRepository.GetById(id);
             return View(query);
         }
+
+        [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            var curUserID = _httpContextAccessor.HttpContext?.User.GetUserId();
+            var createTaskVM = new CreateTaskViewModel { AppUserId = curUserID };
+            return View(createTaskVM);
         }
+
         [HttpPost]
-        public async Task<IActionResult> Create(Query query)
+        public async Task<IActionResult> Create(CreateTaskViewModel taskVM)
         {
-           if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                return View(query);
+                var task = new Query
+                {
+                    Name = taskVM.Name,
+                    Description = taskVM.Description,
+                    Model = taskVM.Model,
+                    Problem = taskVM.Problem,
+                    PhoneNumber = taskVM.PhoneNumber,
+                    IsItQuick = taskVM.IsItQuick,
+                    AppUserId = taskVM.AppUserId
+                };
+                _queryRepository.Add(task);
+                return RedirectToAction("Index");
             }
-           _queryRepository.Add(query);
-            return RedirectToAction ("Index");
+            else
+            {
+                ModelState.AddModelError("", "Create is not accurate");
+            }
+
+            return View(taskVM);
         }
+
         public async Task<IActionResult> Edit(int id)
         {
             var task = await _queryRepository.GetById(id);
@@ -68,7 +104,8 @@ namespace WebApplication1.Controllers
                     Model = taskVM.Model,
                     Problem = taskVM.Problem,
                     PhoneNumber = taskVM.PhoneNumber,
-                    IsItQuick = taskVM.IsItQuick
+                    IsItQuick = taskVM.IsItQuick,
+                    
                 };
                 _queryRepository.Update(task);
                 return RedirectToAction("Index");
@@ -84,11 +121,7 @@ namespace WebApplication1.Controllers
             _queryRepository.Delete(query);
             return RedirectToAction("Index", "Task");
         }
-        public TaskController(IQueryRepository queryRepository)
-        {
-            _queryRepository = queryRepository;
-        }
-           
+
     }
 }
 

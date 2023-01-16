@@ -1,5 +1,6 @@
 ﻿@using WebApplication1.ViewModels
 @model EditTaskViewModel
+@if (User.Identity.IsAuthenticated){
 <form method="post" asp-action="Edit" enctype="multipart/form-data">
     <div>
         <label asp-for="Name">Название устройства</label>
@@ -34,3 +35,6 @@
     <button type="submit" class="btn btn-primary">Применить</button>
 
 </form>
+}else{
+     <h2>Пожалуйста войдите в аккаунт</h2>
+}

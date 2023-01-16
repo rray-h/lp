@@ -8,9 +8,11 @@ namespace WebApplication1.Repository
     public class QueryRepository : IQueryRepository
     {
         private readonly ApplicationDBContext _context;
-        public QueryRepository(ApplicationDBContext context)
+        private readonly IHttpContextAccessor _httpContext;
+        public QueryRepository(ApplicationDBContext context, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
+            _httpContext = httpContextAccessor;
         }
         public bool Add(Query query)
         {
@@ -27,6 +29,13 @@ namespace WebApplication1.Repository
         public async Task<IEnumerable<Query>> GetAll()
         {
             return await _context.query.ToListAsync();
+        }
+
+        public async Task<List<Query>> GetAllbyUserID()
+        {
+            var curUser = _httpContext.HttpContext?.User.GetUserId();
+            var userQueries = _context.query.Where(r => r.AppUser.Id == curUser);
+            return userQueries.ToList();
         }
 
         public async Task<Query> GetById(int id)
