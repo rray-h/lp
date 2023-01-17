@@ -12,7 +12,7 @@ namespace WebApplication1.ViewModels
         public string Problem { get; set; }
         public bool IsItQuick { get; set; }
         public string PhoneNumber { get; set; }
-        public bool CanBeRedacted { get; set; }
+        public bool? CanBeRedacted { get; set; }
         public string AppUserId { get; set; }
     }
 }

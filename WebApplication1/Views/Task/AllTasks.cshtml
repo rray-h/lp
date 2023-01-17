@@ -6,7 +6,8 @@
 @{
     ViewData["Title"] = "TaskList";
 }
-@if (!User.Identity.Equals("user")){
+@if (User.IsInRole("freelancer") || User.IsInRole("admin"))
+{
     <section class="text-center">
         <div class="container">
             @foreach (var item in Model)
@@ -15,9 +16,9 @@
                     <a href="#" class="btn primary m-2">Проблема: @item.Problem </a>
                     <a href="#" class="btn primary m-2">Срочность: @item.IsItQuick </a>
                     <a asp-controller="Task" asp-action="Detail" asp-route-id="@item.Id" type="button">Detail</a>
-                    <a asp-controller="Task" asp-action="Edit" asp-route-id="@item.Id" type="button">Edit</a>
-                    @if (User.Identity.Equals("admin"))
+                    @if (User.IsInRole("admin"))
                     {
+                        <a asp-controller="Task" asp-action="Edit" asp-route-id="@item.Id" type="button">Edit</a>
                         <a asp-controller="Task" asp-action="Delete" asp-route-id="@item.Id" type="button">Delete</a>
                     }
                 </p>

@@ -170,6 +170,8 @@ namespace WebApplication1.Migrations
                     IsItQuick = table.Column<bool>(type: "bit", nullable: false),
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CanBeRedacted = table.Column<bool>(type: "bit", nullable: true),
+                    QueryStatus = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FreelancerID = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     AppUserId = table.Column<string>(type: "nvarchar(450)", nullable: true)
                 },
                 constraints: table =>
