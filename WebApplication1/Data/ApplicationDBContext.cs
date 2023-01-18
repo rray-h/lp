@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Models;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace WebApplication1.Data
 {
@@ -10,7 +11,6 @@ namespace WebApplication1.Data
         {
 
         }
-        public DbSet<Query> query { get; set; } 
-
+        public DbSet<Query> query { get; set; }
     }
 }

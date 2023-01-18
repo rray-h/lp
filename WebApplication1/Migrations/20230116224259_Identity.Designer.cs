@@ -12,7 +12,7 @@ using WebApplication1.Data;
 namespace WebApplication1.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20230111235514_Identity")]
+    [Migration("20230116224259_Identity")]
     partial class Identity
     {
         /// <inheritdoc />
@@ -244,6 +244,9 @@ namespace WebApplication1.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("FreelancerID")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsItQuick")
                         .HasColumnType("bit");
 
@@ -260,6 +263,10 @@ namespace WebApplication1.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Problem")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("QueryStatus")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -323,9 +330,11 @@ namespace WebApplication1.Migrations
 
             modelBuilder.Entity("WebApplication1.Models.Query", b =>
                 {
-                    b.HasOne("WebApplication1.Models.AppUser", null)
+                    b.HasOne("WebApplication1.Models.AppUser", "AppUser")
                         .WithMany("Queries")
                         .HasForeignKey("AppUserId");
+
+                    b.Navigation("AppUser");
                 });
 
             modelBuilder.Entity("WebApplication1.Models.AppUser", b =>

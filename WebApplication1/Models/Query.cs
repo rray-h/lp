@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using WebApplication1.Data.Enum;
+using WebApplication1.Data;
 
 namespace WebApplication1.Models
 {
@@ -21,6 +21,12 @@ namespace WebApplication1.Models
         [Required]
         public string PhoneNumber { get; set; }
         public bool? CanBeRedacted { get; set; }
+        public string QueryStatus { get; set; }
+        public string? FreelancerID { get; set; }
+
+        [ForeignKey("AppUser")]
+        public string? AppUserId { get; set; }
+        public AppUser? AppUser { get; set; }
 
     }
 }

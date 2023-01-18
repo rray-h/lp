@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Query>
+@*
+
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "TaskList";
+}
+@if (User.IsInRole("freelancer") || User.IsInRole("admin"))
+{
+    <section class="text-center">
+        <div class="container">
+            @foreach (var item in Model)
+            {
+                <p>
+                    <a href="#" class="detail primary m-2">Проблема: @item.Problem </a>
+                    <a href="#" class="detail primary m-2">Срочность: @item.IsItQuick </a>
+                    <a href="#" class="detail" asp-controller="Task" asp-action="Detail" asp-route-id="@item.Id" type="button">Detail</a>
+                    @if (User.IsInRole("admin"))
+                    {
+                        <a href="#" class="btn" asp-controller="Task" asp-action="Edit" asp-route-id="@item.Id" type="button">Edit</a>
+                        <a href="#" class="btn" asp-controller="Task" asp-action="Delete" asp-route-id="@item.Id" type="button">Delete</a>
+                    }
+                </p>
+            }
+        </div>
+    </section>
+}
+else
+{
+    <h2>Вы должны быть фрилансером или админом для входа</h2>
+}
