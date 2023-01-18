@@ -6,6 +6,7 @@ namespace WebApplication1.Interfaces
     {
         Task<IEnumerable<Query>> GetAll();
         Task<List<Query>> GetAllbyUserID();
+        Task<List<Query>> GetAllbyFreelancerName();
         Task<Query> GetById(int id);
         Task<Query> GetByIdNoTracking(int id);
         bool Add(Query query);

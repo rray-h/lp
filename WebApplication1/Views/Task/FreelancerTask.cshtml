@@ -6,7 +6,7 @@
 @{
     ViewData["Title"] = "TaskList";
 }
-@if (User.IsInRole("freelancer") || User.IsInRole("admin"))
+@if (User.IsInRole("freelancer"))
 {
     <section class="text-center">
         <div class="container">
@@ -17,11 +17,6 @@
                     <a href="#" class="btn primary m-2">Срочность: @item.IsItQuick </a>
                     <a href="#" class="btn primary m-2">Статус: @item.QueryStatus </a>
                     <a asp-controller="Task" asp-action="Detail" asp-route-id="@item.Id" type="button">Detail</a>
-                    @if (User.IsInRole("admin"))
-                    {
-                        <a asp-controller="Task" asp-action="Edit" asp-route-id="@item.Id" type="button">Edit</a>
-                        <a asp-controller="Task" asp-action="Delete" asp-route-id="@item.Id" type="button">Delete</a>
-                    }
                 </p>
             }
         </div>
@@ -29,5 +24,5 @@
 }
 else
 {
-    <h2>Вы должны быть фрилансером или админом для входа</h2>
+    <h2>Вы должны быть фрилансером для входа</h2>
 }

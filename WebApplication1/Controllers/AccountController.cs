@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Data;
+using WebApplication1.Interfaces;
 using WebApplication1.Models;
 using WebApplication1.ViewModels;
 
@@ -11,11 +12,13 @@ namespace WebApplication1.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly ApplicationDBContext _context;
-        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ApplicationDBContext context)
+        private readonly IUserRepository _userRepository;
+        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ApplicationDBContext context, IUserRepository userRepository)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _context = context;
+            _userRepository = userRepository;
         }
         //Регистрация
         public IActionResult Register()
@@ -85,11 +88,34 @@ namespace WebApplication1.Controllers
             return View(loginVM);
         }
         //Выход 
-        [HttpGet]
+        [HttpPost]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
             return RedirectToAction("Login", "Account");
+        }
+        public async Task<IActionResult> AllUsers()
+        {
+            var users = await _userRepository.GetAppUsers();
+            List<UserViewModel> result = new List<UserViewModel>();
+            foreach (var user in users)
+            {
+                var userViewModel = new UserViewModel()
+                {
+                    Id = user.Id,
+                    Email= user.Email,
+                };
+                result.Add(userViewModel);
+            }
+            return View(result);
+        }
+        //Удаление
+        [HttpGet]
+        public async Task<ActionResult> Delete(string id)
+        {
+            var user = await _userRepository.GetById(id);
+            _userManager.DeleteAsync(user);
+            return RedirectToAction("AllUsers");
         }
     }
 }

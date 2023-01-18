@@ -13,6 +13,7 @@ using WebApplication1.ViewModels;
 
 namespace WebApplication1.Controllers
 {
+    //Контроллер
     public class TaskController : Controller
     {
         private readonly IQueryRepository _queryRepository;
@@ -30,7 +31,11 @@ namespace WebApplication1.Controllers
         {
             IEnumerable<Query> query = await _queryRepository.GetAllbyUserID();
             return View(query);
-
+        }
+        public async Task<ActionResult> FreelancerTask()
+        {
+            List<Query> query = await _queryRepository.GetAllbyFreelancerName();
+            return View(query);
         }
         public async Task<IActionResult> AllTasks()
         {
@@ -42,7 +47,7 @@ namespace WebApplication1.Controllers
             Query query = await _queryRepository.GetById(id);
             return View(query);
         }
-
+        //Создание
         [HttpGet]
         public IActionResult Create()
         {
@@ -77,7 +82,7 @@ namespace WebApplication1.Controllers
 
             return View(taskVM);
         }
-
+        //Редактирование
         public async Task<IActionResult> Edit(int id)
         {
             var task = await _queryRepository.GetById(id);
@@ -126,43 +131,50 @@ namespace WebApplication1.Controllers
                 return View(taskVM);
             }
         }
-
-        
-        [HttpGet]
-        public IActionResult ChangeStatus(AppUser user)
-        {
-            var username = _userManager.GetUserNameAsync(user);
-            var detailVM = new DetailViewModel { FreelancerID = username.ToString() };
-
-            return View(detailVM);
-        }
+        //Фрилансер взял работу
         [HttpPost]
-        public async Task<IActionResult> Changestatus(int id, DetailViewModel detailVM)
+        public async Task<IActionResult> Detail(Query task)
         {
-            var task = await _queryRepository.GetById(id);
-            if (task == null) return View("Error");
-
-            if (task.QueryStatus == QueryStatus.Free)
+            var _task = await _queryRepository.GetByIdNoTracking(task.Id);
+            var curUserName = _httpContextAccessor.HttpContext?.User.GetUserName();
+            if (_task.QueryStatus == QueryStatus.Free)
             {
                 task = new Query
                 {
-                    Id = id,
+                    Id = _task.Id,
+                    Name = _task.Name,
+                    Description = _task.Description,
+                    Model = _task.Model,
+                    Problem = _task.Problem,
+                    PhoneNumber = _task.PhoneNumber,
+                    IsItQuick = _task.IsItQuick,
                     QueryStatus = QueryStatus.Working,
-                    FreelancerID = detailVM.FreelancerID
+                    AppUserId = _task.AppUserId,
+                    FreelancerID = curUserName,
                 };
             }
-            else {
+            else
+            {
                 task = new Query
                 {
-                    Id = id,
-                    QueryStatus = QueryStatus.Working,
-                    FreelancerID = detailVM.FreelancerID
+                    Id = _task.Id,
+                    Name = _task.Name,
+                    Description = _task.Description,
+                    Model = _task.Model,
+                    Problem = _task.Problem,
+                    PhoneNumber = _task.PhoneNumber,
+                    IsItQuick = _task.IsItQuick,
+                    QueryStatus = QueryStatus.Finished,
+                    AppUserId = _task.AppUserId,
+                    FreelancerID = curUserName,
                 };
             }
             _queryRepository.Update(task);
             return View(task);
         }
+        
 
+        //Удаление
         [HttpGet]
         public async Task<ActionResult> Delete(Query query)
         {

@@ -1,0 +1,15 @@
+﻿@using WebApplication1.ViewModels
+@model List<UserViewModel>
+
+<h1>Пользователи</h1>
+
+@foreach (var user in Model)
+{
+    <div>    <span class="h6 mb-0">@user.Email</span>
+    @if (User.IsInRole("admin"))
+    {
+            <a asp-controller="Account" asp-action="Delete" asp-route-id="@user.Id" type="button">Delete</a>
+    }
+    </div>
+
+}

@@ -7,6 +7,6 @@ namespace WebApplication1.Data
     {
         public const string Free = "Требуется фрилансер";
         public const string Working = "Выполняется";
-        public const string Finished = "Выполненно";
+        public const string Finished = "Выполнено";
     }
 }

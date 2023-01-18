@@ -37,6 +37,12 @@ namespace WebApplication1.Repository
             var userQueries = _context.query.Where(r => r.AppUser.Id == curUser);
             return userQueries.ToList();
         }
+        public async Task<List<Query>> GetAllbyFreelancerName()
+        {
+            var curUser = _httpContext.HttpContext?.User.GetUserName();
+            var userQueries = _context.query.Where(r => r.FreelancerID == curUser);
+            return userQueries.ToList();
+        }
 
         public async Task<Query> GetById(int id)
         {
